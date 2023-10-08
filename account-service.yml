@@ -2,7 +2,7 @@ spring:
   datasource:
       username: root
       password: root
-      url: jdbc:mysql://localhost:3306/mainaccountdb?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      url: jdbc:mysql://localhost:3306/useraccount?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
   jpa:
     hibernate:
       ddl-auto: update
